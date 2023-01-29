@@ -1,10 +1,16 @@
 import './MainPage.css';
+import LandingPart from "./LandingPart";
+import AboutMe from "./AboutMe";
+import {Fade} from "react-awesome-reveal";
 
 function MainPage() {
   return (
-    <div className="MainPage">
-      <h1>hi</h1>
-    </div>
+  <Fade triggerOnce={true}>
+      <div className="MainPage">
+          <LandingPart/>
+          <AboutMe/>
+      </div>
+  </Fade>
   );
 }
 

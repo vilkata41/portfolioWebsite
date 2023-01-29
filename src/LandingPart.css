@@ -1,0 +1,38 @@
+#initialBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./Pics/gradientOrange1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20vmax;
+}
+
+
+#myName{
+    margin: 1vmax;
+    text-align: center;
+    font-family: 'Source Sans Pro', 'Source Sans 3', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 5vmax;
+    filter: drop-shadow(1px 3px 2px black);
+}
+
+#initSep{
+    width: 30vmax;
+    border: 0.15vmax solid black;
+    background-color: black;
+}
+
+#descr{
+    margin: 2.25vmax;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.25vmax;
+    filter: drop-shadow(1px 2px 1px black);
+}
