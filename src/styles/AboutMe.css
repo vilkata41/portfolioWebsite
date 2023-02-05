@@ -1,0 +1,26 @@
+#AboutContainer{
+    background-color: #1E1E1E;
+    overflow: auto;
+}
+
+#picAndBriefDescription{
+    display: flex;
+    justify-content: center;
+    margin: 16vmax 0 16vmax 0;
+    height: 24vmax;
+    background-image: url("../Pics/IcelandPic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#picAndBriefDescription p{
+    font-size: 1.2vmax;
+    margin: auto;
+    text-align: center;
+    width: 40vw;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+

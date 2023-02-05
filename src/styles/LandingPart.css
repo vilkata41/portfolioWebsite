@@ -3,13 +3,22 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("./Pics/gradientOrange1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     padding-bottom: 20vmax;
 }
 
+#landingBG {
+    position: fixed;
+    top:-10vmin;
+    left:-2vmax;
+    z-index: -100;
+    width: 100vw;
+    height: 150vh;
+}
+
+#landingBG img{
+    width: 100vw;
+    height: 150vh;
+}
 
 #myName{
     margin: 1vmax;
