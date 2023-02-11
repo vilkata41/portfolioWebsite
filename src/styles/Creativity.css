@@ -1,0 +1,67 @@
+#Creativity{
+    padding: 9.6vmax;
+    background-color: #252525;
+    overflow: visible;
+    z-index: 0;
+}
+
+#orangeDiv{
+    position: relative;
+    width:0;
+    height:0;
+    margin:0;
+    padding:0;
+}
+#orangeBG{
+    position: absolute;
+    left: -50vw;
+    top: -30vh;
+    width: 80vw;
+    height: auto;
+}
+
+.sectionTitle{
+    margin:0;
+    color: white;
+    text-align: right;
+    font-size: 2.25vmax;
+    font-weight: 700;
+}
+
+.sectionText{
+    margin: 3.2vmax 0 0 12.8vmax;
+    color: white;
+    font-size: 1.25vmax;
+    text-align: justify;
+    filter: drop-shadow(0px 4px 2px black);
+}
+
+#imgGallery{
+    padding-top: 4.8vmax;
+    position:relative;
+    left: 38.4vw;
+    width: 18.2vmax;
+    height: 16.8vmax;
+    z-index: 1;
+}
+
+#NBFront{
+    position: absolute;
+    height: 16.8vmax;
+    width: auto;
+    rotate: -16deg;
+}
+
+#NBFront2{
+    position: absolute;
+    height: 16.8vmax;
+    width: auto;
+    rotate: -8deg;
+    transform: translateX(+3vmax);
+}
+#NBFront3{
+    position: absolute;
+    height: 16.8vmax;
+    width: auto;
+    transform: translateX(+6vmax);
+}

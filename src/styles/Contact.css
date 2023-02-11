@@ -1,0 +1,133 @@
+#Contact{
+    padding-bottom: 10vw;
+    background-color: #1E1E1E;
+    overflow: visible;
+    z-index: 0;
+}
+
+#orangeDiv2{
+    position: relative;
+    width:0;
+    height:0;
+    margin:0;
+    padding:0;
+}
+#orangeBG2{
+    position: absolute;
+    left: 50vw;
+    top: -150vw;
+    width: 100vw;
+    rotate: 40deg;
+    height: 200vw;
+}
+
+#ContactForm{
+    margin: 0 auto 0 auto;
+    padding: 4.8vw;
+    width: 41.6vw;
+    background-color: #252525;
+    border-radius: 1.8vw;
+    filter: drop-shadow(4px 4px 40px rgba(0, 0, 0, 0.5));
+}
+
+#Contact h2{
+    margin:0 0 4.8vw 0;
+    color: white;
+    text-align: center;
+    font-size: 2.4vmax;
+    font-weight: 700;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#Contact input:not([type="submit"]){
+    outline: none;
+    display: block;
+    width: calc(100% - 4.8vw);
+    margin: 2.4vw auto 0 auto;
+    padding: 0.8vw 1.6vw;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-family: "Source Sans Pro", "Source Sans 3", sans-serif;
+    font-size: 1.6vmax;
+    color: white;
+}
+
+#Contact input:not([type="submit"]):focus{
+    border: none;
+    border-bottom: 2px solid #F9E79F;
+}
+
+#Contact input:not([type="submit"]):focus::placeholder{
+    color: #F9E79F;
+}
+
+#contactEmailContent{
+    outline: none;
+    resize: none;
+    display: block;
+    margin: 3.2vw 0 0 0;
+    padding: 2.4vw;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 1.6vw;
+    width: calc(100% - (4.8vw + 4px));
+    height: 14.4vw;
+    font-family: "Source Sans Pro", "Source Sans 3", sans-serif;
+    font-size: 1.6vmax;
+    color: white;
+    scrollbar-width: thin;
+}
+
+#contactEmailContent::-webkit-scrollbar {
+    width: 0.8vw;
+}
+
+#contactEmailContent::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 2.4vw;
+}
+
+#contactEmailContent::-webkit-scrollbar-thumb:hover{
+    background: rgba(255, 255, 255, 0.4);
+}
+
+#contactEmailContent::-webkit-scrollbar-thumb:active{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#contactEmailContent::-webkit-scrollbar-track{
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 2.4vw;
+}
+
+#contactEmailContent::-webkit-scrollbar-button{
+    background: transparent;
+}
+
+#contactEmailContent:focus{
+    border: 2px solid #F9E79F;
+}
+
+#contactEmailContent:focus::placeholder{
+    color: #F9E79F;
+}
+
+#submitContactForm{
+    display: block;
+    margin: 3.2vw auto 0 auto;
+    width: calc(100% - 6.4vw);
+    height: 3.2vw;
+    border: none;
+    background-color: #F9E79F;
+    border-radius: 1.6vw;
+    font-family: "Source Sans Pro", "Source Sans 3", sans-serif;
+    font-size: 1.6vw;
+    color: black;
+    font-weight: 700;
+}
+
+#submitContactForm:hover, #submitContactForm:active{
+    background-color: #e1c465;
+    cursor: pointer;
+}

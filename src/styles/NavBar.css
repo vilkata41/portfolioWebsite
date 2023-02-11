@@ -1,0 +1,35 @@
+#navbar{
+    display: grid;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: rgba(0,0,0,0);
+    z-index: 100;
+}
+
+#navbar ul{
+    padding:0;
+    margin:2vmax auto 2vmax auto ;
+}
+
+#navbar ul li{
+    display: inline;
+    margin:3.2vmax;
+    filter: drop-shadow(2px 5px 3px black);
+}
+
+#navbar ul img{
+    width: 3.2vmax;
+}
+
+#navbar ul img:hover{
+    cursor: pointer;
+}
+
+#navbar hr{
+    margin:0 auto 0 auto;
+    background-color: white;
+    width: 95vw;
+    border: 0.15vmax solid white;
+    filter: drop-shadow(2px 5px 3px black);
+}

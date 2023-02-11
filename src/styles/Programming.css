@@ -1,0 +1,41 @@
+#Programming{
+    background-color: #1E1E1E;
+    overflow: auto;
+    padding-bottom: 9.6vmax;
+}
+
+#Programming h2{
+    margin:9.6vmax 0 3.2vmax 0;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 2.25vmax;
+    font-weight: 700;
+    z-index: 1;
+}
+
+#Projects{
+    padding: 0 9.6vw 0 9.6vw;
+    display: grid;
+    margin: 0;
+    grid-template-columns: repeat(2, auto);
+    place-items: center;
+}
+
+#Projects div{
+    display: inline-block;
+    padding: 2.4vw;
+    margin: 3.2vw 0 3.2vw 0;
+    background-color: #252525;
+    border-radius: 1.8vw;
+    width: 19.2vw;
+    height: 22.4vw;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));
+    border: 2px solid transparent;
+    z-index: 1;
+}
+
+#Projects div:hover{
+    border: 2px solid #F9E79F;
+    cursor: pointer;
+}
