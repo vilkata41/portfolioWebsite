@@ -6,6 +6,7 @@ import {Fade} from "react-awesome-reveal";
 import Creativity from "./Creativity";
 import Programming from "./Programming";
 import Contact from "./Contact";
+import PreFooter from "./PreFooter";
 
 function MainPage() {
   return (
@@ -19,6 +20,7 @@ function MainPage() {
               <Programming/>
               <Contact/>
           </div>
+          <PreFooter/>
       </div>
   </Fade>
   );

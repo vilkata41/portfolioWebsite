@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Landing part of the page completed">
-      <change afterPath="$PROJECT_DIR$/src/components/AboutMe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LandingPart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/AboutMe.css" afterDir="false" />
+    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Completing the main skeleton of the website">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AboutMe.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AboutMe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/LandingPart.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LandingPart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/AboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/AboutMe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -67,6 +65,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\My Website\src\Pics" />
       <recent name="D:\Work\My Website\src\styles" />
       <recent name="D:\Work\My Website\src\components" />
     </key>
@@ -91,7 +90,9 @@
       <workItem from="1675453987473" duration="5290000" />
       <workItem from="1675508317097" duration="10000" />
       <workItem from="1675515281092" duration="11175000" />
-      <workItem from="1675622302989" duration="1818000" />
+      <workItem from="1675622302989" duration="4741000" />
+      <workItem from="1675700748481" duration="122000" />
+      <workItem from="1676111259096" duration="7322000" />
     </task>
     <task id="LOCAL-00001" summary="Landing part of the page completed">
       <created>1675018084723</created>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675018084723</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completing the main skeleton of the website">
+      <created>1675624211969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675624211969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Landing part of the page completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Landing part of the page completed" />
+    <MESSAGE value="Completing the main skeleton of the website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing the main skeleton of the website" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
