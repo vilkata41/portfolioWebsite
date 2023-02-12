@@ -53,6 +53,15 @@
     color: white;
 }
 
+/*This removes any default browser autofilled field styles*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
+}
+
 #Contact input:not([type="submit"]):focus{
     border: none;
     border-bottom: 2px solid #F9E79F;
@@ -130,4 +139,21 @@
 #submitContactForm:hover, #submitContactForm:active{
     background-color: #e1c465;
     cursor: pointer;
+}
+
+.contactAlert{
+    position: fixed;
+    top:1.6vmax;
+    left:20vw;
+    width:47.2vw;
+    margin:0;
+    padding: 3.2vw 6.4vw;
+    background-color: #252525;
+    border-radius: 1.6vw;
+    color: #e1c465;
+    text-align: center;
+    font-size: 1.6vw;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.75));
+    z-index: 1000;
+    transition: opacity ease-out 250ms;
 }

@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Completing the main skeleton of the website">
+    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Re-committing different files in different folders">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AboutMe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AboutMe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingPart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/AboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/AboutMe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Contact.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +82,9 @@
       <workItem from="1675515281092" duration="11175000" />
       <workItem from="1675622302989" duration="4741000" />
       <workItem from="1675700748481" duration="122000" />
-      <workItem from="1676111259096" duration="7322000" />
+      <workItem from="1676111259096" duration="8552000" />
+      <workItem from="1676124454410" duration="710000" />
+      <workItem from="1676197717177" duration="6622000" />
     </task>
     <task id="LOCAL-00001" summary="Landing part of the page completed">
       <created>1675018084723</created>
@@ -108,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675624211969</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementing the Send mail function">
+      <created>1676118958578</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676118958578</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Re-committing different files in different folders">
+      <created>1676119004389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676119004390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +134,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Landing part of the page completed" />
     <MESSAGE value="Completing the main skeleton of the website" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing the main skeleton of the website" />
+    <MESSAGE value="Implementing the Send mail function" />
+    <MESSAGE value="Re-committing different files in different folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-committing different files in different folders" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
