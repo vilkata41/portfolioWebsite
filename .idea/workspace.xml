@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Re-committing different files in different folders">
+    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Adding alerts when email is sent/failed to send. Also fixing a bug where autofilled values changed the style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pics/PersonIcon HTML contribution.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Programming.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Programming.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Programming.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Programming.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +41,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Work/My Website&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "D:/Work/My Website",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Errors",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Work\My Website\src\Pics" />
@@ -84,7 +94,20 @@
       <workItem from="1675700748481" duration="122000" />
       <workItem from="1676111259096" duration="8552000" />
       <workItem from="1676124454410" duration="710000" />
-      <workItem from="1676197717177" duration="6622000" />
+      <workItem from="1676197717177" duration="6776000" />
+      <workItem from="1676213572036" duration="9000" />
+      <workItem from="1676379753942" duration="5112000" />
+      <workItem from="1676395021731" duration="3648000" />
+      <workItem from="1676414549750" duration="366000" />
+      <workItem from="1676452236478" duration="1715000" />
+      <workItem from="1676462660113" duration="2000" />
+      <workItem from="1676657537349" duration="255000" />
+      <workItem from="1676666233872" duration="291000" />
+      <workItem from="1676721582726" duration="2795000" />
+      <workItem from="1676734455621" duration="3000" />
+      <workItem from="1676797947458" duration="8493000" />
+      <workItem from="1676912016853" duration="116000" />
+      <workItem from="1676971267081" duration="5018000" />
     </task>
     <task id="LOCAL-00001" summary="Landing part of the page completed">
       <created>1675018084723</created>
@@ -114,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676119004390</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding alerts when email is sent/failed to send. Also fixing a bug where autofilled values changed the style">
+      <created>1676207502362</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676207502362</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +166,8 @@
     <MESSAGE value="Completing the main skeleton of the website" />
     <MESSAGE value="Implementing the Send mail function" />
     <MESSAGE value="Re-committing different files in different folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Re-committing different files in different folders" />
+    <MESSAGE value="Adding alerts when email is sent/failed to send. Also fixing a bug where autofilled values changed the style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding alerts when email is sent/failed to send. Also fixing a bug where autofilled values changed the style" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

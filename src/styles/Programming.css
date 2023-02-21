@@ -22,20 +22,8 @@
     place-items: center;
 }
 
-#Projects div{
-    display: inline-block;
-    padding: 2.4vw;
-    margin: 3.2vw 0 3.2vw 0;
-    background-color: #252525;
-    border-radius: 1.8vw;
-    width: 19.2vw;
-    height: 22.4vw;
-    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));
-    border: 2px solid transparent;
-    z-index: 1;
-}
-
-#Projects div:hover{
-    border: 2px solid #F9E79F;
-    cursor: pointer;
+@media (max-aspect-ratio: 9/10) {
+    #Projects{
+        grid-template-columns: repeat(1, auto);
+    }
 }

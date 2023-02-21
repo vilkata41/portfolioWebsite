@@ -141,6 +141,24 @@ input:-webkit-autofill:active{
     cursor: pointer;
 }
 
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    100%{
+        opacity: 0;
+    }
+    0%{
+        opacity: 1;
+    }
+}
+
 .contactAlert{
     position: fixed;
     top:1.6vmax;
@@ -148,12 +166,23 @@ input:-webkit-autofill:active{
     width:47.2vw;
     margin:0;
     padding: 3.2vw 6.4vw;
+
     background-color: #252525;
     border-radius: 1.6vw;
+    border: none;
     color: #e1c465;
+
     text-align: center;
     font-size: 1.6vw;
+
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.75));
     z-index: 1000;
-    transition: opacity ease-out 250ms;
+}
+
+.contactAlert[open]{
+    animation: fade-in 350ms forwards;
+}
+
+.contactAlert[closing]{
+    animation: fade-out 350ms forwards;
 }
