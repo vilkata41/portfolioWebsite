@@ -1,4 +1,6 @@
 import "../styles/Project.css";
+import {Slide} from "react-awesome-reveal";
+
 function Project(props){
     let title = props.title;
     let bgImage = props.imgURL;
@@ -7,14 +9,16 @@ function Project(props){
 
     if(title && bgImage && content && usedThings){ // if we have all four props set, we generate the project
         return(
-            <div className={"projectDiv"}>
-                <div className={"bgHolder"} style={{backgroundImage: `url(${bgImage})`}}></div>
-                <div className={"projectContentHolder"}>
-                    <h1>{title}</h1>
-                    <p className={"usedTechs"}>{usedThings}</p>
-                    <p className={"projectDescription"}>{content}</p>
+            <Slide style={{zIndex: 1}} direction={"up"} duration={900} triggerOnce={true}>
+                <div className={"projectDiv"}>
+                    <div className={"bgHolder"} style={{backgroundImage: `url(${bgImage})`}}></div>
+                    <div className={"projectContentHolder"}>
+                        <h1>{title}</h1>
+                        <p className={"usedTechs"}>{usedThings}</p>
+                        <p className={"projectDescription"}>{content}</p>
+                    </div>
                 </div>
-            </div>
+            </Slide>
         );
     }
     else{ // otherwise, we skip over this filler project and don't display it

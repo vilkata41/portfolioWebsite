@@ -1,5 +1,6 @@
 import "../styles/Programming.css";
 import Project from "./Project";
+import {Slide} from "react-awesome-reveal";
 import tweetImage from "../Pics/TweetFilteredPIC.png";
 import networkSimulatorImage from "../Pics/NetSimPIC.png";
 import carasImage from "../Pics/carasPIC.png";
@@ -43,7 +44,9 @@ function Programming(){
 
     return(
         <div id={"Programming"}>
-            <h2>My Programming Side</h2>
+            <Slide direction={"up"} duration={900} triggerOnce={true}>
+                <h2>My Programming Side</h2>
+            </Slide>
             <div id={"Projects"}>
                 <Project title={"TweetFiltered App"} imgURL={tweetImage} content={tweetFilteredContent}
                          used={"Java, Python, GCP, MediaPipe (Python), Spring boot"}/>
