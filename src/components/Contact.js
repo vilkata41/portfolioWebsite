@@ -16,9 +16,11 @@ function Contact(){
 
     const sendMail = (evt) => {
         evt.preventDefault();
+        let serviceID = process.env.REACT_APP_SERVICE_ID;
+        let templateID = process.env.REACT_APP_TEMPLATE_ID;
         let emailKey = process.env.REACT_APP_EMAIL_KEY;
 
-        emailjs.sendForm('service_9loei4a', 'template_am04fec', form.current, emailKey)
+        emailjs.sendForm(serviceID, templateID, form.current, emailKey)
             .then((result) => { // if we're successful, I remove all fields' contents
                 setName("");
                 setEmail("");
@@ -30,7 +32,7 @@ function Contact(){
 
                 setTimeout(() => {
                     successAlert.current.setAttribute("closing", "");
-                    successAlert.addEventListener("animationend", () => {
+                    successAlert.current.addEventListener("animationend", () => {
                         successAlert.current.removeAttribute("closing");
                         successAlert.current.close();
                     }, {once: true});
@@ -44,7 +46,7 @@ function Contact(){
                 setTimeout(() => {
                     failureAlert.current.setAttribute("closing", "");
 
-                    failureAlert.addEventListener("animationend", () => {
+                    failureAlert.current.addEventListener("animationend", () => {
                         failureAlert.current.removeAttribute("closing");
                         failureAlert.current.close();
                     }, {once: true});

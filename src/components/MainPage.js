@@ -11,8 +11,7 @@ import PreFooter from "./PreFooter";
 // FIXME: To finish desktop version:
 //        1. Put the actual pictures in "Creativity" tab
 //        2. Fix the font sizes
-//        3. Check how to store and get public key from Netlify.
-//        4. Add LinkedIn and GitHub to socials
+//        3. Add LinkedIn and GitHub to socials
 function MainPage() {
   return (
   <Fade triggerOnce={true}>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Adding hover animations on creativity pictures (bigger screen ratio only), fix later for portrait mode.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Adding security to the email api key for the hosted environment variables.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage.js" afterDir="false" />
@@ -108,7 +107,8 @@
       <workItem from="1677064573198" duration="629000" />
       <workItem from="1677066395090" duration="5000" />
       <workItem from="1677076273334" duration="657000" />
-      <workItem from="1677085575437" duration="1070000" />
+      <workItem from="1677085575437" duration="1224000" />
+      <workItem from="1677086973035" duration="412000" />
     </task>
     <task id="LOCAL-00001" summary="Landing part of the page completed">
       <created>1675018084723</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677063045832</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adding security to the email api key for the hosted environment variables.">
+      <created>1677086701021</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677086701021</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +214,8 @@
     <MESSAGE value="I forgot to include the new files in the previous commit, oops. Including now." />
     <MESSAGE value="Adding reveal animations to page elements" />
     <MESSAGE value="Adding hover animations on creativity pictures (bigger screen ratio only), fix later for portrait mode." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding hover animations on creativity pictures (bigger screen ratio only), fix later for portrait mode." />
+    <MESSAGE value="Adding security to the email api key for the hosted environment variables." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding security to the email api key for the hosted environment variables." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
