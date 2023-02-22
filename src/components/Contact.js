@@ -1,5 +1,5 @@
 import "../styles/Contact.css";
-import orangeBG from "../Pics/gradientOrange1.png";
+import orangeBG from "../Pics/gradientOrange1.webp";
 import React, {useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 import {Slide} from "react-awesome-reveal";

@@ -1,8 +1,8 @@
 import "../styles/NavBar.css";
-import vp from "../Pics/VP.png";
-import creativity from "../Pics/creativity.png";
-import tech from "../Pics/technology.png";
-import user from "../Pics/user.png";
+import vp from "../Pics/VP.webp";
+import creativity from "../Pics/creativity.webp";
+import tech from "../Pics/technology.webp";
+import user from "../Pics/user.webp";
 
 function NavBar(){
     return(

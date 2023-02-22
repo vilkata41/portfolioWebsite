@@ -1,8 +1,7 @@
 import '../styles/LandingPart.css';
 import {useState, useEffect} from "react";
 import {Fade, Slide} from "react-awesome-reveal";
-import 'animate.css/animate.min.css';
-import orange1 from "../Pics/gradientOrange1.png";
+import orange1 from "../Pics/gradientOrange1.webp";
 
 function LandingPart(){
     const [scrollOffset, setScrollOffset] = useState(0);

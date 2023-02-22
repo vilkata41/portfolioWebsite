@@ -1,6 +1,6 @@
 import "../styles/Creativity.css";
-import NB_compressed from "../Pics/NB_Front_Compressed.jpg";
-import orangeBG from "../Pics/gradientOrange1.png";
+import NB_compressed from "../Pics/NB_Front.webp";
+import orangeBG from "../Pics/gradientOrange1.webp";
 import {Slide} from "react-awesome-reveal";
 
 function Creativity(){

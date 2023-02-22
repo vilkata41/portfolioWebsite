@@ -1,12 +1,12 @@
 import "../styles/Programming.css";
 import Project from "./Project";
 import {Slide} from "react-awesome-reveal";
-import tweetImage from "../Pics/TweetFilteredPIC.png";
-import networkSimulatorImage from "../Pics/NetSimPIC.png";
-import carasImage from "../Pics/carasPIC.png";
-import cryptogramsImage from "../Pics/cryptogramsPIC.png";
-import simpleShellImage from "../Pics/simpleShellPIC.png";
-import thisWebsiteImage from "../Pics/thisWebsitePIC.png";
+import tweetImage from "../Pics/TweetFilteredPIC.webp";
+import networkSimulatorImage from "../Pics/NetSimPIC.webp";
+import carasImage from "../Pics/carasPIC.webp";
+import cryptogramsImage from "../Pics/cryptogramsPIC.webp";
+import simpleShellImage from "../Pics/simpleShellPIC.webp";
+import thisWebsiteImage from "../Pics/thisWebsitePIC.webp";
 
 function Programming(){
     let tweetFilteredContent = "In Java, I built an application that would access the twitter API and download specific tweets my " +

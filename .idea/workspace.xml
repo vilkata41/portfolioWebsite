@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Adding security to the email api key for the hosted environment variables.">
+    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Fixing a bug where email prompt doesn't fully close. Also, added another 2 environment variables.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Creativity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Creativity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LandingPart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingPart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Programming.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Programming.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +111,8 @@
       <workItem from="1677066395090" duration="5000" />
       <workItem from="1677076273334" duration="657000" />
       <workItem from="1677085575437" duration="1224000" />
-      <workItem from="1677086973035" duration="412000" />
+      <workItem from="1677086973035" duration="1724000" />
+      <workItem from="1677091111021" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="Landing part of the page completed">
       <created>1675018084723</created>
@@ -187,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677086701021</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixing a bug where email prompt doesn't fully close. Also, added another 2 environment variables.">
+      <created>1677087435203</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677087435203</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +226,8 @@
     <MESSAGE value="Adding reveal animations to page elements" />
     <MESSAGE value="Adding hover animations on creativity pictures (bigger screen ratio only), fix later for portrait mode." />
     <MESSAGE value="Adding security to the email api key for the hosted environment variables." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding security to the email api key for the hosted environment variables." />
+    <MESSAGE value="Fixing a bug where email prompt doesn't fully close. Also, added another 2 environment variables." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing a bug where email prompt doesn't fully close. Also, added another 2 environment variables." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
