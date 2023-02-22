@@ -43,25 +43,108 @@
     width: 18.2vmax;
     height: 16.8vmax;
     z-index: 1;
+    filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.75));
 }
 
-#NBFront{
-    position: absolute;
-    height: 16.8vmax;
-    width: auto;
-    rotate: -16deg;
-}
 
-#NBFront2{
-    position: absolute;
-    height: 16.8vmax;
-    width: auto;
-    rotate: -8deg;
-    transform: translateX(+3vmax);
-}
-#NBFront3{
-    position: absolute;
-    height: 16.8vmax;
-    width: auto;
-    transform: translateX(+6vmax);
+@media (min-aspect-ratio: 9/10){
+    @keyframes img1hovered {
+        0%{
+            transform: none;
+        }
+        100%{
+            transform: translate(-8vmax, -1vmax);
+        }
+    }
+
+    @keyframes img1unhovered {
+        100%{
+            transform: none;
+        }
+        0%{
+            transform: translate(-8vmax, -1vmax);
+        }
+    }
+
+    @keyframes img2hovered {
+        0%{
+            rotate: -8deg;
+        }
+        100%{
+            rotate: 0deg;
+        }
+    }
+
+    @keyframes img2unhovered {
+        100%{
+            rotate: -8deg;
+        }
+        0%{
+            rotate: 0deg;
+        }
+    }
+
+    @keyframes img3hovered {
+        0%{
+            rotate: 0deg;
+            transform: translateX(+6vmax);
+        }
+        100%{
+            rotate: 16deg;
+            transform: translate(+14vmax, -3vmax);
+        }
+    }
+
+    @keyframes img3unhovered {
+        100%{
+            rotate: 0deg;
+            transform: translateX(+6vmax);
+        }
+        0%{
+            rotate: 16deg;
+            transform: translate(+14vmax, -3vmax);
+        }
+    }
+
+    #CreativityPic1{
+        animation: img1unhovered 350ms ease-out;
+        position: absolute;
+        height: 16.8vmax;
+        width: auto;
+        rotate: -16deg;
+    }
+
+    #CreativityPic2{
+        animation: img2unhovered 350ms ease-out;
+        position: absolute;
+        height: 16.8vmax;
+        width: auto;
+        rotate: -8deg;
+        transform: translateX(+3vmax);
+    }
+
+    #CreativityPic3{
+        animation: img3unhovered 350ms ease-out;
+        position: absolute;
+        height: 16.8vmax;
+        width: auto;
+        transform: translateX(+6vmax);
+    }
+
+    #imgGallery:hover #CreativityPic1{
+        animation: img1hovered 350ms ease-out;
+        transform: translate(-8vmax, -1vmax);
+
+    }
+
+    #imgGallery:hover #CreativityPic2{
+        animation: img2hovered 350ms ease-out;
+        rotate: 0deg;
+    }
+
+    #imgGallery:hover #CreativityPic3{
+        animation: img3hovered 350ms ease-out;
+        transform: translate(+14vmax, -3vmax);
+        rotate: 16deg;
+    }
 }

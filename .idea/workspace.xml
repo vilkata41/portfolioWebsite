@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="I forgot to include the new files in the previous commit, oops. Including now.">
+    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Adding reveal animations to page elements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Creativity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Creativity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Programming.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Programming.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Creativity.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Creativity.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +104,7 @@
       <workItem from="1676797947458" duration="8493000" />
       <workItem from="1676912016853" duration="116000" />
       <workItem from="1676971267081" duration="5189000" />
-      <workItem from="1677054909899" duration="2909000" />
+      <workItem from="1677054909899" duration="5377000" />
     </task>
     <task id="LOCAL-00001" summary="Landing part of the page completed">
       <created>1675018084723</created>
@@ -157,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676976848895</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding reveal animations to page elements">
+      <created>1677060317436</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677060317436</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +187,8 @@
     <MESSAGE value="Adding alerts when email is sent/failed to send. Also fixing a bug where autofilled values changed the style" />
     <MESSAGE value="Adding animation to alerts when email is sent/failed to send. Also, implementing the projects and instantiating them with the real images and text." />
     <MESSAGE value="I forgot to include the new files in the previous commit, oops. Including now." />
-    <option name="LAST_COMMIT_MESSAGE" value="I forgot to include the new files in the previous commit, oops. Including now." />
+    <MESSAGE value="Adding reveal animations to page elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding reveal animations to page elements" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
