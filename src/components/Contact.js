@@ -16,8 +16,9 @@ function Contact(){
 
     const sendMail = (evt) => {
         evt.preventDefault();
+        let emailKey = process.env.REACT_APP_EMAIL_KEY;
 
-        emailjs.sendForm('service_9loei4a','template_am04fec', form.current, 'MY_PUBLIC_KEY')
+        emailjs.sendForm('service_9loei4a', 'template_am04fec', form.current, emailKey)
             .then((result) => { // if we're successful, I remove all fields' contents
                 setName("");
                 setEmail("");
