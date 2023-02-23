@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Compressing some more.">
+    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Adding some dim to the background of the navbar.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pics/NB_Front.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pics/NB_Front.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pics/NB_Front.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pics/NB_Front.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pics/NB_Front_Compressed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Creativity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Creativity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LandingPart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingPart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PreFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PreFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/AboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/AboutMe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Creativity.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Creativity.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/NavBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/PreFooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/PreFooter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Programming.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Programming.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Project.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +123,11 @@
       <workItem from="1677086973035" duration="1724000" />
       <workItem from="1677091111021" duration="997000" />
       <workItem from="1677092708472" duration="376000" />
-      <workItem from="1677093694385" duration="240000" />
+      <workItem from="1677093694385" duration="903000" />
+      <workItem from="1677137097753" duration="12325000" />
+      <workItem from="1677166603052" duration="804000" />
+      <workItem from="1677167691173" duration="13000" />
+      <workItem from="1677169282570" duration="197000" />
     </task>
     <task id="LOCAL-00001" summary="Landing part of the page completed">
       <created>1675018084723</created>
@@ -210,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677092801208</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Adding some dim to the background of the navbar.">
+      <created>1677094003243</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677094003243</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +265,8 @@
     <MESSAGE value="Fixing a bug where email prompt doesn't fully close. Also, added another 2 environment variables." />
     <MESSAGE value="Compressing used images for site speed-up." />
     <MESSAGE value="Compressing some more." />
-    <option name="LAST_COMMIT_MESSAGE" value="Compressing some more." />
+    <MESSAGE value="Adding some dim to the background of the navbar." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some dim to the background of the navbar." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

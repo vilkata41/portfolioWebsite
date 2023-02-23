@@ -16,11 +16,21 @@
 }
 
 #picAndBriefDescription p{
-    font-size: 1.2vmax;
+    font-size: 1.2rem;
     margin: auto;
     text-align: center;
     width: 40vw;
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-device-width: 650px){
+    #picAndBriefDescription{
+        background-attachment: scroll;
+    }
+    #picAndBriefDescription p{
+        width: 60vw;
+        margin-right: 35vw;
+    }
 }
 
 

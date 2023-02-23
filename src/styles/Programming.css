@@ -18,12 +18,17 @@
     padding: 0 9.6vw 0 9.6vw;
     display: grid;
     margin: 0;
-    grid-template-columns: repeat(2, auto);
     place-items: center;
 }
 
-@media (max-aspect-ratio: 9/10) {
+@media screen and (max-aspect-ratio: 9/10) {
     #Projects{
         grid-template-columns: repeat(1, auto);
+    }
+}
+
+@media screen and (min-aspect-ratio: 9/10){
+    #Projects{
+        grid-template-columns: repeat(2, auto);
     }
 }

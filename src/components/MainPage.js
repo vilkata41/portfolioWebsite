@@ -8,10 +8,8 @@ import Programming from "./Programming";
 import Contact from "./Contact";
 import PreFooter from "./PreFooter";
 
-// FIXME: To finish desktop version:
-//        1. Put the actual pictures in "Creativity" tab
-//        2. Fix the font sizes
-//        3. Add LinkedIn and GitHub to socials
+// FIXME: To finish desktop version: Fix the font sizes
+
 function MainPage() {
   return (
   <Fade triggerOnce={true}>

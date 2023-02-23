@@ -39,11 +39,9 @@
 }
 
 .projectDiv:hover .bgHolder{
-    filter: blur(8px);
     animation: bgBlurIN 250ms ease-in;
+    filter: blur(8px);
 }
-
-
 
 @keyframes heightUP {
     0%{
@@ -65,46 +63,48 @@
 
 .projectContentHolder{
     margin: 0;
-    padding: 1.2vw;
+    padding: 1.2vmax;
     display: block;
     position: absolute;
     bottom: 0;
-    width: calc(100% - 2.4vw);
-    height: 4.2vw;
+    width: calc(100% - 2.4vmax);
+    height: 4.2vmax;
     background-color: rgba(37, 37, 37, 0.9);
     overflow:hidden;
     color: white;
     animation: heightDOWN 350ms ease-out;
-    -webkit-animation: heightDOWN 350ms ease-out;
 }
 
 .projectDiv:hover .projectContentHolder{
-    height: calc(100% - 2.4vw);
+    height: calc(100% - 2.4vmax);
     animation: heightUP 350ms ease-in;
 }
 
 .projectContentHolder h1{
-    font-size: 1.8vw;
+    font-size: 1.8vmax;
     text-align: center;
-    margin-bottom: 2.4vw;
+    margin-bottom: 2.4vmax;
 }
 
 .projectDescription{
-    font-size: 1.2vw;
+    font-size: 1.2vmax;
     text-align: justify;
-    margin: 0 1.2vw 1.2vw 1.2vw;
+    margin: 0 1.2vmax 1.2vmax 1.2vmax;
 }
 
 .usedTechs{
     margin: 0; padding: 0;
-    font-size: 1vw;
+    font-size: 1vmax;
     font-style: italic;
     text-align: center;
 }
 
-@media (max-aspect-ratio: 9/10){
+@media screen and (max-aspect-ratio: 9/10){
     .projectDiv{
-        width: 80%;
-        height: 48vh;
+        width: 72vw;
+        height: 100vw;
+    }
+    .projectDescription{
+        font-size: 1.6vmax;
     }
 }

@@ -10,9 +10,9 @@ function LandingPart(){
         let hr = document.getElementById("initSep");
         let descr = document.getElementById("descr");
         if(window.pageYOffset <= 310){
-            vilian.style.display = "flex";
-            hr.style.display = "flex";
-            descr.style.display = "flex";
+            vilian.style.display = "block";
+            hr.style.display = "block";
+            descr.style.display = "block";
             setScrollOffset(window.pageYOffset);
         }
         else{
@@ -29,6 +29,7 @@ function LandingPart(){
         return () => window.removeEventListener('scroll', handleScrolling);
     }, []);
 
+    // FIXME: make scroll animation look smooth on phone.
     return(
     <div id={"initialBlock"}>
         <div id={"landingBG"}>
@@ -37,11 +38,11 @@ function LandingPart(){
         <div className={"content"}>
             <Fade delay={250} triggerOnce={true}>
                 <Slide cascade damping={0.1} triggerOnce={true}>
-                    <h1 id={"myName"} style={{transform: `translateX(${scrollOffset * 0.08}vw) translateY(${scrollOffset * 0.05}vw)`,
+                    <h1 id={"myName"} style={{transform: `translateX(${scrollOffset * 0.08}vw) translateY(${scrollOffset * 0.12}vh)`,
                         opacity: `${ (scrollOffset === 0) ? 1 : 1-(scrollOffset/300)}`}}>Vilian Popov</h1>
-                    <hr id={"initSep"} style={{transform: `translateX(${scrollOffset * 0.07}vw) translateY(${scrollOffset * 0.05}vw)`,
+                    <hr id={"initSep"} style={{transform: `translateX(${scrollOffset * 0.07}vw) translateY(${scrollOffset * 0.12}vh)`,
                         opacity: `${ (scrollOffset === 0) ? 1 : 1-(scrollOffset/300)}`} } />
-                    <h2 id={"descr"} style={{transform: `translateX(${scrollOffset * 0.06}vw) translateY(${scrollOffset * 0.05}vw)`,
+                    <h2 id={"descr"} style={{transform: `translateX(${scrollOffset * 0.06}vw) translateY(${scrollOffset * 0.12}vh)`,
                         opacity: `${ (scrollOffset === 0) ? 1 : 1-(scrollOffset/300)}`} }>Full-stack developer, AI enthusiast, novel writer</h2>
                 </Slide>
             </Fade>

@@ -15,6 +15,7 @@ p{
 }
 
 footer div{
+  background-color: #252525;
   position: relative;
   z-index: 10;
 }
@@ -23,5 +24,47 @@ footer p{
   margin:0;
   text-align: center;
   color: white;
-  font-size: 1.2vw;
+  font-size: 0.6rem;
+}
+
+@media screen and (max-width: 400px){
+  html{
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 400px){
+  html {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 500px){
+  html{
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 650px){
+  html{
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 800px){
+  html{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  html{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  html{
+    font-size: 16px;
+  }
 }
