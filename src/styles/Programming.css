@@ -19,6 +19,7 @@
     display: grid;
     margin: 0;
     place-items: center;
+    overflow: hidden;
 }
 
 @media screen and (max-aspect-ratio: 12/10) {

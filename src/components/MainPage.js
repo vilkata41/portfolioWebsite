@@ -8,8 +8,6 @@ import Programming from "./Programming";
 import Contact from "./Contact";
 import PreFooter from "./PreFooter";
 
-// FIXME: To finish desktop version: Fix the font sizes
-
 function MainPage() {
   return (
   <Fade triggerOnce={true}>

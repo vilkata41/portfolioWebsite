@@ -8,6 +8,7 @@ function Contact(){
     const form = useRef();
     const successAlert = useRef();
     const failureAlert = useRef();
+    const noFieldsAlert = useRef();
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -20,43 +21,62 @@ function Contact(){
         let templateID = process.env.REACT_APP_TEMPLATE_ID;
         let emailKey = process.env.REACT_APP_EMAIL_KEY;
 
-        emailjs.sendForm(serviceID, templateID, form.current, emailKey)
-            .then((result) => { // if we're successful, I remove all fields' contents
-                setName("");
-                setEmail("");
-                setSubject("");
-                setContent("");
+        let email_from = form.current.sent_by_email.value;
+        let message = form.current.message.value;
 
-                // and display a success alert
-                successAlert.current.show();
+        if(!(email_from && message)){ // if no name or message, error.
+            noFieldsAlert.current.show();
 
-                setTimeout(() => {
-                    successAlert.current.setAttribute("closing", "");
-                    successAlert.current.addEventListener("animationend", () => {
-                        successAlert.current.removeAttribute("closing");
-                        successAlert.current.close();
-                    }, {once: true});
-                }, 5000);
+            setTimeout(() => {
+                noFieldsAlert.current.setAttribute("closing", "");
 
-                console.log("Successfully sent email.");
+                noFieldsAlert.current.addEventListener("animationend", () => {
+                    noFieldsAlert.current.removeAttribute("closing");
+                    noFieldsAlert.current.close();
+                }, {once: true});
+            }, 5000);
 
-            }, (err) => { // if we have an error, we show the failed alert.
-                failureAlert.current.show();
+            console.log("No email and message.");
+        }
+        else{ // otherwise, we send the email
+            emailjs.sendForm(serviceID, templateID, form.current, emailKey)
+                .then((result) => { // if we're successful, I remove all fields' contents
+                    setName("");
+                    setEmail("");
+                    setSubject("");
+                    setContent("");
 
-                setTimeout(() => {
-                    failureAlert.current.setAttribute("closing", "");
+                    // and display a success alert
+                    successAlert.current.show();
 
-                    failureAlert.current.addEventListener("animationend", () => {
-                        failureAlert.current.removeAttribute("closing");
-                        failureAlert.current.close();
-                    }, {once: true});
-                }, 5000);
+                    setTimeout(() => {
+                        successAlert.current.setAttribute("closing", "");
+                        successAlert.current.addEventListener("animationend", () => {
+                            successAlert.current.removeAttribute("closing");
+                            successAlert.current.close();
+                        }, {once: true});
+                    }, 5000);
 
-                console.log("An error occurred while sending email.");
-            })
-            .catch(problem => {
-                console.log(problem);
-            });
+                    console.log("Successfully sent email.");
+
+                }, (err) => { // if we have an error, we show the failed alert.
+                    failureAlert.current.show();
+
+                    setTimeout(() => {
+                        failureAlert.current.setAttribute("closing", "");
+
+                        failureAlert.current.addEventListener("animationend", () => {
+                            failureAlert.current.removeAttribute("closing");
+                            failureAlert.current.close();
+                        }, {once: true});
+                    }, 5000);
+
+                    console.log("An error occurred while sending email.");
+                })
+                .catch(problem => {
+                    console.log(problem);
+                });
+        }
     };
 
     return(
@@ -80,6 +100,7 @@ function Contact(){
             </Slide>
             <dialog ref={successAlert} className={"contactAlert"}>Email sent successfully.</dialog>
             <dialog ref={failureAlert} className={"contactAlert"}>We are terribly sorry. Something went wrong while sending the email.</dialog>
+            <dialog ref={noFieldsAlert} className={"contactAlert"}>Please, input at least email and a message.</dialog>
         </div>
     );
 }

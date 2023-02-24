@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Adding some media queries, fixing some fonts, adding additional pictures in the creativity component.">
+    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Fixing some bugs, adding new animations.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Creativity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Creativity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/LandingPart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/LandingPart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/PreFooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/PreFooter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Programming.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Programming.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Project.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Project.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +118,7 @@
       <workItem from="1677166603052" duration="804000" />
       <workItem from="1677167691173" duration="13000" />
       <workItem from="1677169282570" duration="3334000" />
-      <workItem from="1677252904207" duration="5163000" />
+      <workItem from="1677252904207" duration="8700000" />
     </task>
     <task id="LOCAL-00001" summary="Landing part of the page completed">
       <created>1675018084723</created>
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677169563591</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fixing some bugs, adding new animations.">
+      <created>1677258223545</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677258223545</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +272,8 @@
     <MESSAGE value="Compressing some more." />
     <MESSAGE value="Adding some dim to the background of the navbar." />
     <MESSAGE value="Adding some media queries, fixing some fonts, adding additional pictures in the creativity component." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some media queries, fixing some fonts, adding additional pictures in the creativity component." />
+    <MESSAGE value="Fixing some bugs, adding new animations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing some bugs, adding new animations." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

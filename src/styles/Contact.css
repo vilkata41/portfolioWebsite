@@ -12,6 +12,7 @@
     margin:0;
     padding:0;
 }
+
 #orangeBG2{
     position: absolute;
     left: 50vw;
@@ -185,4 +186,34 @@ input:-webkit-autofill:active{
 
 .contactAlert[closing]{
     animation: fade-out 350ms forwards;
+}
+
+@media screen and (max-aspect-ratio: 1/1){
+    #ContactForm{
+        width: 70vw;
+    }
+
+    #Contact input:not([type="submit"]){
+        font-size: 1.6rem;
+    }
+
+    #Contact h2{
+        font-size: 2rem;
+    }
+
+    #contactEmailContent{
+        font-size: 1.6rem;
+        height: 30vh;
+    }
+
+    #submitContactForm{
+        font-size: 1.6rem;
+        height: 4vh;
+        border-radius: 2vh;
+    }
+
+    .contactAlert{
+        top: 10vh;
+        font-size: 1.5rem;
+    }
 }
