@@ -6,7 +6,7 @@
     width: 28.8vw;
     height: 40vw;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));
-    overflow: hidden;
+    overflow: clip;
     border: 0;
     z-index: 1;
     tab-index: 0;
@@ -21,6 +21,15 @@
     }
 }
 
+@-webkit-keyframes bgBlurIN {
+    0%{
+        -webkit-filter: blur(0);
+    }
+    100%{
+        -webkit-filter: blur(8px);
+    }
+}
+
 @keyframes bgBlurOUT {
     0%{
         filter: blur(8px);
@@ -30,16 +39,28 @@
     }
 }
 
+@-webkit-keyframes bgBlurOUT {
+    0%{
+        -webkit-filter: blur(8px);
+    }
+    100%{
+        -webkit-filter: blur(0);
+    }
+}
+
+/*FIXME: fix the animations for iPhone*/
 .projectDiv .bgHolder{
     margin:0; padding:0;
     width: 100%; height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     animation: bgBlurOUT 250ms ease-out;
+    -webkit-animation: bgBlurOUT 250ms ease-out;
 }
 
 .projectDiv:hover .bgHolder{
     animation: bgBlurIN 250ms ease-in;
+    -webkit-animation: bgBlurIN 250ms ease-in;
     filter: blur(8px);
 }
 
@@ -76,8 +97,8 @@
 }
 
 .projectDiv:hover .projectContentHolder{
-    height: calc(100% - 2.4vmax);
     animation: heightUP 350ms ease-in;
+    height: calc(100% - 2.4vmax);
 }
 
 .projectContentHolder h1{
@@ -99,12 +120,41 @@
     text-align: center;
 }
 
-@media screen and (max-aspect-ratio: 9/10){
+@media screen and (max-aspect-ratio: 2/5) {
     .projectDiv{
         width: 72vw;
         height: 100vw;
     }
     .projectDescription{
-        font-size: 1.6vmax;
+        font-size: 0.9rem;
+    }
+    .usedTechs{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-aspect-ratio: 2/5) and (max-aspect-ratio: 4/5){
+    .projectDiv{
+        width: 72vw;
+        height: 100vw;
+    }
+    .projectDescription{
+        font-size: 1.3rem;
+    }
+    .usedTechs{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-aspect-ratio: 4/5) and (max-aspect-ratio: 12/10){
+    .projectDiv{
+        width: 48vw;
+        height: 67vw;
+    }
+    .projectDescription{
+        font-size: 1.4rem;
+    }
+    .usedTechs{
+        font-size: 1.2rem;
     }
 }

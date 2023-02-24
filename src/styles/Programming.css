@@ -21,13 +21,13 @@
     place-items: center;
 }
 
-@media screen and (max-aspect-ratio: 9/10) {
+@media screen and (max-aspect-ratio: 12/10) {
     #Projects{
         grid-template-columns: repeat(1, auto);
     }
 }
 
-@media screen and (min-aspect-ratio: 9/10){
+@media screen and (min-aspect-ratio: 12/10){
     #Projects{
         grid-template-columns: repeat(2, auto);
     }

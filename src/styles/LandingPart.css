@@ -2,15 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
     height: 100vh;
     padding-bottom: 20vmax;
+    overflow-x: clip;
 }
 
 #landingBG {
     position: fixed;
     top:-10vmin;
     left:-2vmax;
-    z-index: -100;
+    z-index: -1;
     width: 100vw;
     height: 150vh;
 }
