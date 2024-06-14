@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Fixing some bugs, adding new animations.">
+    <list default="true" id="11de4881-d544-42b5-8223-1165695bd41d" name="Changes" comment="Styling contact form for mobile and fixing bugs where it was allowed to send empty emails.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Programming.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Programming.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Programming.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Programming.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/LandingPart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/LandingPart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Project.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Project.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +34,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2Jy24sMm4OYaOJe0rVBvtd5K4tQ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -38,28 +45,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Work/My Website&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Work/My Website",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Errors",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Work\My Website\src\Pics" />
@@ -118,7 +129,18 @@
       <workItem from="1677166603052" duration="804000" />
       <workItem from="1677167691173" duration="13000" />
       <workItem from="1677169282570" duration="3334000" />
-      <workItem from="1677252904207" duration="8700000" />
+      <workItem from="1677252904207" duration="9205000" />
+      <workItem from="1677316972302" duration="1109000" />
+      <workItem from="1677406921785" duration="2000" />
+      <workItem from="1677758273204" duration="214000" />
+      <workItem from="1677775400026" duration="461000" />
+      <workItem from="1677789781369" duration="2000" />
+      <workItem from="1678002344237" duration="1165000" />
+      <workItem from="1678006385387" duration="644000" />
+      <workItem from="1678097688683" duration="1734000" />
+      <workItem from="1678100582074" duration="1787000" />
+      <workItem from="1678377027970" duration="17000" />
+      <workItem from="1718365204240" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="Landing part of the page completed">
       <created>1675018084723</created>
@@ -239,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677258223545</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Styling contact form for mobile and fixing bugs where it was allowed to send empty emails.">
+      <created>1677261831703</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677261831703</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +302,8 @@
     <MESSAGE value="Adding some dim to the background of the navbar." />
     <MESSAGE value="Adding some media queries, fixing some fonts, adding additional pictures in the creativity component." />
     <MESSAGE value="Fixing some bugs, adding new animations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing some bugs, adding new animations." />
+    <MESSAGE value="Styling contact form for mobile and fixing bugs where it was allowed to send empty emails." />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling contact form for mobile and fixing bugs where it was allowed to send empty emails." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

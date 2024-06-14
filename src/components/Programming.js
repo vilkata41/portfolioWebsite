@@ -7,8 +7,13 @@ import carasImage from "../Pics/carasPIC.webp";
 import cryptogramsImage from "../Pics/cryptogramsPIC.webp";
 import simpleShellImage from "../Pics/simpleShellPIC.webp";
 import thisWebsiteImage from "../Pics/thisWebsitePIC.webp";
+import ytAnalyserImage from "../Pics/YouTubeAnalyser.webp";
 
 function Programming(){
+    let ytAnalyserContent = "This full-stack application was developed from scratch and the main aim of it was to allow YouTube content " +
+    "creators access an interactive content analysis tool for their channel and videos, as well as provide " +
+    "semi-tailored advice based on certain pieces of data linked to their channel.";
+
     let tweetFilteredContent = "In Java, I built an application that would access the twitter API and download specific tweets my " +
         "account was mentioned in, alongside their information (author, text, media). Then, with Spring Boot, I " +
         "created my own API and hosted it on GCP with AppEngine. The final part of the project included a " +
@@ -48,8 +53,11 @@ function Programming(){
                 <h2>My Programming Side</h2>
             </Slide>
             <div id={"Projects"}>
+                <Project title={"YouTube Analyser"} imgURL={ytAnalyserImage} content={ytAnalyserContent}
+                         used={"React, Spring Boot, JavaScript, Java, OAuth 2.0, SCSS, Figma"}/>
+
                 <Project title={"TweetFiltered App"} imgURL={tweetImage} content={tweetFilteredContent}
-                         used={"Java, Python, GCP, MediaPipe (Python), Spring boot"}/>
+                         used={"Java, Python, GCP, MediaPipe (Python), Spring Boot"}/>
 
                 <Project title={"Network Simulation System"} imgURL={networkSimulatorImage} content={netSimSysContent}
                          used={"Java"}/>
